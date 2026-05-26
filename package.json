@@ -1,0 +1,13 @@
+{
+  "name": "playlistiq",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "start-backend": "npm run start --workspace backend",
+    "build": "npm run build --workspace frontend"
+  }
+}
